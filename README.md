@@ -3,7 +3,7 @@
 
 Welcome to the **SnakeGameQt** tutorial! This project is designed to introduce beginners to the fundamentals of game development using Qt C++. By the end of this tutorial, you'll have a fully functional snake game and a better understanding of Qt's capabilities.
 
-![Game Screenshot](.screenshots/game.png)
+![Game Screenshot](screenshots/game.png)
 
 ## Features
 - Smooth snake movement with `QTimer`.
@@ -29,7 +29,7 @@ cd SnakeGameTutorial
 
 ### Build and Run
 1. Open the project in Qt Creator.
-2. Configure the build kit (Qt 6.0+ is required).
+2. Configure the build kit.
 3. Click the **Run** button to compile and launch the game.
 
 ---

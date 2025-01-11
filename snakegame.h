@@ -26,7 +26,6 @@ private:
     static const int MAX_Y = 30;
     static const int DELAY = 100;
     static const int BANNER_HEIGHT = 40;
-    QPixmap snakeBody;
 
     QTimer *gameTimer;  // Timer for game updates.
     bool isGameOver;    // Indicates if the game is over.

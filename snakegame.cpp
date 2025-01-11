@@ -7,7 +7,6 @@ SnakeGame::SnakeGame(QWidget *parent)
     : QWidget(parent), isGameOver(false), isPaused(false), dir(RIGHT), score(0) {
     setFixedSize(GRID_SIZE * MAX_X, GRID_SIZE * MAX_Y + BANNER_HEIGHT);// Set game window size.
     setStyleSheet("background-color: black;");         // Set background color.
-    snakeBody.load(":/images/Images/snakebody.png");
     startGame(); // Start the game.
 }
 
